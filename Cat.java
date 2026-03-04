@@ -32,6 +32,8 @@ public class Cat {
 		Graphics2D g2 = (Graphics2D) g;
 		int x=catX;
 		int y=catY;
+		int x2;
+		int y2;
 		// Draw the head
 		g2.setColor(Color.black);
 		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
@@ -62,11 +64,11 @@ public class Cat {
 		// -2 draws whisker just to left of mouth
 		x = catX + MOUTH_X - 2;
 		// x2 is the other endpoint, depends on length of whisker 
-		int x2 = x - WHISKER_LENGTH;
+		x2 = x - WHISKER_LENGTH;
 		// whiskers all start at the same "height" as the mouth, centered
 		y = catY + MOUTH_Y + MOUTH_HEIGHT/2;
 		// -5 gives a slight slant
-		int y2 = y - WHISKER_SLANT;
+		y2 = y - WHISKER_SLANT;
 		for (int i=0; i<NUM_WHISKERS; i++)
 		{
 			g2.drawLine(x, y, x2, y2);
