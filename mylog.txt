@@ -1,0 +1,27 @@
+*   d67a113 (HEAD -> main, origin/main, origin/HEAD) Merge branch 'changeCatText'
+|\  
+| * c8fd7b8 (changeCatText) change cat text
+|/  
+* 3765376 change mouse text to EEEK
+*   99c5265 Merge branch 'addmouse'
+|\  
+| * dfcbdb8 (origin/addmouse, addmouse) update gitignore for IDE files
+| * 37c406e mouse
+* | 4697472 add cat ears
+* |   667bf6a Merge branch 'catears'
+|\ \  
+| * | b0b0587 catears
+| | | * d7fd361 (catears) add cat ears
+| |_|/  
+|/| |   
+* | |   dcbbed6 Merge branch 'main' of https://github.com/WillDrescher/LO10A
+|\ \ \  
+| |/ /  
+|/| |   
+| * | af00ffc update gitignore for IDE files
+| |/  
+* / 33f8901 cat ears
+|/  
+* ef1cec1 cat with whiskers
+* d1adeea just the downloaded files from canvas
+* d278c76 first commit
